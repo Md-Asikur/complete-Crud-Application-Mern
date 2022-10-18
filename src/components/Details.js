@@ -56,7 +56,7 @@ const Details = () => {
       console.log("error");
     } else {
       console.log("user deleted");
-      history.push("/");
+      history("/");//useNavigate
     }
   };
 

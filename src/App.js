@@ -4,7 +4,7 @@ import './App.css';
 import Navbaar from './components/Navbaar';
 import Register from './components/Register';
 import Home from './components/Home';
-import { Switch,Routes,Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Details from './components/Details';
 import Edit from './components/Edit';
 function App() {
